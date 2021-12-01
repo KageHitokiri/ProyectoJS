@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/style.css" rel="stylesheet">
+    <title>CalcCem</title>
+    <script src="js/menu.js"></script>
+    <script src="js/login.js"></script>
+</head>
+<body>
+    
+    <header>
+    <nav>
+      <a href="index.html"><img class="logo" src="imgs/calcCem-logo-white.png" alt="logo"></a>
+
+      <ul class="enlaces-menu">
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="contenido/coleccion.html">Colecciones</a></li>
+          <li><a href="contenido/calculo.html">Calculo</a></li>
+          <li id="botonLog"><a href="#">Login</a></li>
+      </ul>
+
+      <button class="ham" type="button">   
+          <span class="br-1"></span>
+          <span class="br-2"></span>
+          <span class="br-3"></span>
+      </button>                       
+  </nav>
+    <div class="overlay">
+        <img src="./imgs/calcCem-logo.png" width="250px">
+        <br >
+        <button><a href="contenido/calculo.html">Calcular</a></button>
+    </div>
+</header>
+    <br >
+    
+    <div class="login-box" id="login">
+        <form>
+          <div class="user-box">
+            <input type="text" name="" id="username">
+            <label>Username</label>
+          </div>
+          <div class="user-box">
+            <input type="password" name="">
+            <label>Password</label>
+          </div>
+          <button class="botonSubmit">Submit</button>
+          <hr >
+          <button id="crear">Crear Nuevo</button>
+          <button id="botonDesactiva">Cerrar</button>
+        </form>
+      </div>
+      <div class="login-box" id="registro">
+        <form>
+            <div class="user-box">
+                <input type="text" name="">
+                <label>Nombre</label>
+            </div>
+            <div class="user-box">
+                <input type="text" name="">
+                <label>Apellido</label>
+            </div>
+          <div class="user-box">
+            <input type="text" name="">
+            <label>Username</label>
+          </div>
+          <div class="user-box">
+            <input type="text" name="">
+            <label>Email</label>
+          </div>
+          <div class="user-box">
+            <input type="password" name="">
+            <label>Password</label>
+          </div>
+          <button class="botonSubmit">Submit</button>
+          <hr >
+          <button id="botonDesactiva">Cerrar</button>
+        </form>
+      </div>
+
+      <section>
+          <h2 class="segundoTitulo">¿Cómo calcular la cantidad de azulejos necesarios para una superficie?</h2>
+          <br>
+          <p>Antes de nada se debe determinar correctamente lo que vas a comprar. Debes calcular la cantidad de
+            cerámica que necesitas para realizar tu proyecto. El tamaño, la superficie de la pared o suelo y el añadido
+            de junta.
+          </p>
+          
+          <h2 class="segundoTitulo">Cantidad de azulejos que se necesitan para una superficie: Criterios a tomar en cuenta.</h2>
+          <br>
+          <ol start="1">
+            <li><strong>Tamaño del azulejo: </strong> En la caluladora se podrá elegir el tipo de azulejo que desee.</li>
+            <li><strong>Superficie: </strong>Se introducirán los datos del cliente, largo y ancho de la superficie a alicatar.
+            se mostrará en metros cuadrados.</li>
+            <li><strong>Añadido de junta: </strong>Las juntas varían entre 1-5mm, se añadirá la junta seleccionada y se tendrá
+            en cuenta a la hora de calcular el número necesario de azulejos.</li>
+            <li><strong>Cajas: </strong>A partir de la superficie de la caja, variará su tamaño según la cantidad de azulejos por metro
+            cuadrado, ya que esa caja la tiene que transportar una persona.</li>
+            <li><strong>Número de azulejos por caja: </strong>Tendremos en cuenta el número de azulejos totales y la superficie de la caja.</li>
+          </ol>
+      </section>
+
+</body>
+</html>

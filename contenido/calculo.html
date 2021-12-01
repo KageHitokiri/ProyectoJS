@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="../css/style.css" rel="stylesheet">
+    <title>CalcCem</title>
+    <script src="../js/menu.js"></script>
+    <script src="../js/calculo.js"></script>
+</head>
+<body>
+    <header>
+      <nav>
+        <a href="../index.html"><img class="logo" src="../imgs/calcCem-logo-white.png" alt="logo"></a>
+  
+        <ul class="enlaces-menu">
+            <li><a href="../index.html">Inicio</a></li>
+            <li><a href="coleccion.html">Colecciones</a></li>
+            <li><a href="calculo.html">Calculo</a></li>
+        </ul>
+  
+        <button class="ham" type="button">   
+            <span class="br-1"></span>
+            <span class="br-2"></span>
+            <span class="br-3"></span>
+        </button>                       
+    </nav>
+   
+        <div class="overlay">
+            <img src="../imgs/calcCem-logo.png" width="250px">
+        </div>
+    </header>
+    <br >
+    <section>
+      <button id="coleccion">Ver colecciones</button>
+        <form>
+            <label>Tipo de azulejo:</label>
+            <select name="select" id="selector">
+                <option value="0" selected>---</option>
+                <option value="1">1 -FS Raku</option>
+                <option value="2">2 - Poitiers Blanco</option>
+                <option value="3">3 - Ground Decorativo</option>
+                <option value="4">4 - Ground Mila Warm</option>
+                <option value="5">5 -Essence</option>
+                <option value="6">6 - Unique</option>
+                <option value="7">7 - Brass Rectificado</option>
+                <option value="8">8 - Brass Decorativo</option>
+                <option value="9">9 - Nature Decorativo</option>
+                <option value="10">10 - Adrenaline</option>
+                <option value="11">11 - FS Star</option>
+                <option value="12">12 - FS Yard</option>
+              </select>
+            <br >
+            <label>Largo (cm):</label>
+            <input type="text" id="largo"><br >
+            <label>Ancho (cm): </label>
+            <input type="text" id="ancho"><br >           
+            <label>Junta (mm):</label>
+                <select name="selectJunta" id="selectJunta">
+                  <option value="0" selected>---</option>
+                  <option value="1">1 mm</option>
+                  <option value="2">2 mm</option>
+                  <option value="3">3 mm</option>
+                  <option value="4">4 mm</option>
+                  <option value="5">5 mm</option>
+              </select><br >
+            <button id="btncalculo">Calcular</button>
+            <br >
+            <!-- <textarea id="campoTexto" cols="55" rows="8"></textarea> -->
+        </form>
+    </section>
+
+</body>
+</html>
